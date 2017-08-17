@@ -44,12 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Performance\Benchmark.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\PublicProperties.cs" />
     <Compile Include="Reflection\SerializationFactory.cs" />
     <Compile Include="Response\Response.cs" />
-    <Compile Include="Validation\IValidate.cs" />
-    <Compile Include="Validation\ValidationResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
